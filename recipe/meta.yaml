@@ -8,7 +8,7 @@ package:
 build:
   # r-rbokeh is not available under Windows
   skip: true  # [win]
-  number: 0
+  number: 1000
 
 requirements:
     run:
