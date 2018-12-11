@@ -11,9 +11,11 @@ build:
   number: 1000
 
 requirements:
+    host:
+        - r-base
     run:
-        - r-base >={{ version }}
-        - r-recommended >={{ version }}
+        - r-base
+        - r-recommended {{ version }}
         - r-ggplot2 >=3.1.0
         - r-plyr >=1.8.4
         - r-reshape2 >=1.4.3
