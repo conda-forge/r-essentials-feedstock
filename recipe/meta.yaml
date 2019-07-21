@@ -8,7 +8,7 @@ package:
 build:
   noarch: generic
   # r-rbokeh is not available under Windows
-  number: 2000
+  number: 2001
 
 requirements:
     host:
@@ -67,5 +67,6 @@ about:
 
 extra:
   recipe-maintainers:
+    - conda-forge/r
     - johanneskoester
     - bgruening
