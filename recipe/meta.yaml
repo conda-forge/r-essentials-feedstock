@@ -1,9 +1,8 @@
 {% set name = "r-essentials" %}
-{% set version = "3.5.1" %}
 
 package:
   name: {{ name }}
-  version: {{ version }}
+  version: {{ r_base }}
 
 build:
   noarch: generic
