@@ -14,7 +14,7 @@ requirements:
         - r-base
     run:
         - r-base
-        - r-recommended {{ r_base }}
+        - r-recommended
         - r-ggplot2 >=3.1.0
         - r-plyr >=1.8.4
         - r-reshape2 >=1.4.3
@@ -67,5 +67,3 @@ about:
 extra:
   recipe-maintainers:
     - conda-forge/r
-    - johanneskoester
-    - bgruening
