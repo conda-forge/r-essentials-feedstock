@@ -1,21 +1,20 @@
 {% set name = "r-essentials" %}
-{% set version = "3.5.1" %}
 
 package:
   name: {{ name }}
-  version: {{ version }}
+  version: {{ r_base }}
 
 build:
   noarch: generic
   # r-rbokeh is not available under Windows
-  number: 2000
+  number: 2001
 
 requirements:
     host:
         - r-base
     run:
         - r-base
-        - r-recommended {{ version }}
+        - r-recommended
         - r-ggplot2 >=3.1.0
         - r-plyr >=1.8.4
         - r-reshape2 >=1.4.3
@@ -67,5 +66,4 @@ about:
 
 extra:
   recipe-maintainers:
-    - johanneskoester
-    - bgruening
+    - conda-forge/r
