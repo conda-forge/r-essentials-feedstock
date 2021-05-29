@@ -61,12 +61,11 @@ test:
 about:
   home: https://github.com/conda-forge/r-essentials-feedstock
   license: MIT
-  license_family: Other
+  license_family: MIT
   summary: Some essential packages for working with R. This was migrated from the 'r' channel.
-
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/MIT
-    - LICENSE
+
 extra:
   recipe-maintainers:
     - conda-forge/r
