@@ -1,11 +1,11 @@
-About r-essentials
-==================
+About r-essentials-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-essentials-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/conda-forge/r-essentials-feedstock
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-essentials-feedstock/blob/main/LICENSE.txt)
 
 Summary: Some essential packages for working with R. This was migrated from the 'r' channel.
 
