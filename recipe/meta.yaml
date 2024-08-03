@@ -7,7 +7,7 @@ package:
 build:
   noarch: generic
   # r-rbokeh is not available under Windows
-  number: 2004
+  number: 2005
 
 requirements:
   host:
